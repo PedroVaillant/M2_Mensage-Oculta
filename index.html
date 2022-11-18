@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Codifcar / Decodificar</title>
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="icon " href="./img/CadeadoAberto.png">
+</head>
+
+<body>
+	<header>
+		<h1>Mensagem Oculta</h1>
+	</header>
+	<form>
+		<section>
+			<select name="tipoCriptografia" id="tipoCriptografia" onchange="escolherOpcao()">
+				<option value="caesar">Cifra de César</option>
+				<option value="base64">Base64</option>
+			</select>
+		</section>
+		<br>
+		<section>
+			<input type="radio" name="opcoes" value="codificar" onchange="mudarOpcao()" /> Codificar
+			<input type="radio" name="opcoes" value="decodificar" onchange="mudarOpcao()" />
+			Decodificar
+		</section>
+		<br>
+		<section>
+			<label>Mensagem:</label>
+			<br><br>
+			<textarea name="caixamensagem" id="caixamensagem" cols="50" rows="10"
+				placeholder="Escreva sua mensagem aqui"></textarea>
+		</section>
+		<br><br>
+		<section class="chavecodificacao">
+			<label>Chave de codificação:</label>
+			<input type="number" value="1" min="1" max="26" name="chavecodificacao" id="chavecodificacao" />
+		</section>
+		<br><br>
+		<section>
+			<label>Resultado:</label>
+			<br><br>
+			<textarea name="caixaresultado" id="caixaresultado" cols="50" rows="10"
+				placeholder="Seu resutado aparecerá aqui"></textarea>
+		</section>
+		<br>
+		<section>
+			<input type="button" name="botao" id="botao" value="Codificar a mensagem!"
+				onclick="codificaDecodifica()" />
+		</section>
+	</form>
+
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
