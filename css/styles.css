@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Inconsolata:wght@400;600&display=swap');
 
-body{
-    text-align: center; 
+body {
+    text-align: center;
     background-color: black;
     color: green;
     font-weight: bold;
     font-family: "Inconsolata", monospace;
 }
 
-h1{
+h1 {
     color: lime;
     text-shadow: 2px 5px 5px rgb(95, 230, 95);
     font-size: 60px;
     font-family: "Alike Angular";
 }
 
-textarea{
+textarea {
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -25,7 +25,7 @@ textarea{
     resize: none;
 }
 
-select{
+select {
     text-align: center;
     width: 390px;
     border-radius: 10px;
@@ -44,11 +44,11 @@ textarea:focus {
     box-shadow: 10px 10px 5px rgb(51, 129, 51);
 }
 
-input{
+input {
     cursor: pointer;
 }
 
-.chavecodificacao input{
+.chavecodificacao input {
     text-align: center;
     font-weight: bold;
     border-radius: 10px;
@@ -56,7 +56,7 @@ input{
     width: 30px;
 }
 
-#botao{
+#botao {
     border: none;
     border-radius: 10px;
     color: white;
@@ -70,6 +70,6 @@ input{
     transition-duration: 0.5s;
 }
 
-#botao:hover{
+#botao:hover {
     background-color: rgb(7, 56, 7);
 }
