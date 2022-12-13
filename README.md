@@ -3,7 +3,7 @@ Projeto individual do segundo módulo, do curso Programadores Cariocas junto com
 
 ## 💻 Tecnologias utilizadas
 <div align="center" style="display: inline_block">
-No nosso projeto, foram utilizados HTML5, CSS3 e o Javascript.
+No projeto, foi utilizados HTML5, CSS3 e o Javascript.
 <br>
 <img align="center" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 <img align="center" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
