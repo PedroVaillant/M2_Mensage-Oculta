@@ -1,7 +1,7 @@
 ## 👨‍💻 Projeto individual - Mensage Oculta
 Projeto individual do segundo módulo, do curso Programadores Cariocas junto com a Resilia. A ideia desse projeto e de criar um codificador e decodificador de Cifra de César e Base64, utilizando técnicas aprendidas em aula.
 
-## 💻 Tecnologias utilizadas
+### 💻 Tecnologias utilizadas
 <div align="center" style="display: inline_block">
 Nesse projeto, foram utilizados HTML5, CSS3 e o Javascript.
 <br>
